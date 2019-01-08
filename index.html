@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RPG Game</title>
+
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        
+        <div id="wrapper">
+            <div id="header">
+                <h1>There can be only one!</h1>
+            </div>
+            
+            <div id="subheader">
+                <h2 id="subHeaderText">Selectable Char</h2>
+
+                <div class = "archerClass picture">
+                    <img src="./assets/images/archer.jpg"   alt="Robin Hood" width="180px" height="160px">
+                </div>
+
+                <div class = "warriorClass picture">
+                    <img src="./assets/images/warrior.jpg" alt="Conan" width="180" height="160">
+                </div>
+
+                <div class = "mageClass picture">
+                        <img src="./assets/images/mage.jpg" alt="Tim" width="180" height="160">
+                </div>
+
+                <div class="rougeClass picture">
+                    <img src="./assets/images/rouge.jpg" alt="Golum" width="180" height="160">
+                </div>
+            </div>
+            
+            
+            
+            <div id="leftDiv">
+                <h3>Player1</h3>
+                <img class="playerImg" src="" alt="Player Image" width="180" height="160">
+                <p id="playerHealth"></p>
+            </div>
+            
+            <div id="vs">
+                <h3>vs image</h3>
+                <img class="vsImg">
+            </div>
+            
+            <div id="rightDiv">
+                <h3>Defender</h3>
+                <img class="defenderImg" src="" alt="Player Image" width="180" height="160">
+                <p id="defenderHealth"></p>
+            </div>
+            
+            <div id="textArea">
+                <h4>text output</h4>
+            </div>
+            <div id="buttonDiv">
+                <button id="attackBtn">Attack!</button>
+            </div>
+            <div id="footer">
+                <p>Footer</p>
+            </div>
+            
+        </div>
+        <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    </body>
+    </html>
