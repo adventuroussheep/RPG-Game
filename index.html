@@ -17,40 +17,51 @@
         
         <div id="wrapper">
             <div id="header">
-                <h1>There can be only one!</h1>
+                <h1>Highlander Challange!</h1>
             </div>
             
             <div id="subheader">
-                <h2 id="subHeaderText">Selectable Char</h2>
+                <h2 id="subHeaderText">Selectable Characters:</h2>
 
                 <div class = "archerClass picture">
                     <img src="./assets/images/archer.jpg"   alt="Robin Hood" width="180px" height="160px">
+                    <p>Health: 230</p>
+                    <p>Power: 12</p>
+                    <p>Dice: 2</p>
                 </div>
 
                 <div class = "warriorClass picture">
                     <img src="./assets/images/warrior.jpg" alt="Conan" width="180" height="160">
+                    <p>Health: 250</p>
+                    <p>Power: 28</p>
+                    <p>Dice: 1</p>
                 </div>
 
                 <div class = "mageClass picture">
                         <img src="./assets/images/mage.jpg" alt="Tim" width="180" height="160">
+                        <p>Health: 160</p>
+                        <p>Power: 15</p>
+                        <p>dice: 2</p>
                 </div>
 
                 <div class="rougeClass picture">
                     <img src="./assets/images/rouge.jpg" alt="Golum" width="180" height="160">
+                    <p>Health: 200</p>
+                    <p>Power: 10</p>
+                    <p>Dice: 3</p>
                 </div>
             </div>
             
             
             
             <div id="leftDiv">
-                <h3>Player1</h3>
+                <h3>Player</h3>
                 <img class="playerImg" src="" alt="Player Image" width="180" height="160">
                 <p id="playerHealth"></p>
             </div>
             
             <div id="vs">
-                <h3>vs image</h3>
-                <img class="vsImg">
+                <img class="vsImg" src="./assets/images/vs.gif" alt="VS Image" width="200" height="200">
             </div>
             
             <div id="rightDiv">
@@ -60,10 +71,12 @@
             </div>
             
             <div id="textArea">
-                <h4>text output</h4>
+                <p>Welcome adventurer! Your quest is to become the only Highlander left. Each character has unique attributes listed above. Defeating a defender rewards you with a power multiplyer and an additional dice roll.</p>
+
             </div>
             <div id="buttonDiv">
                 <button id="attackBtn">Attack!</button>
+                <button id="resetBtn">Reset</button>
             </div>
             <div id="footer">
                 <p>Footer</p>

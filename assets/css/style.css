@@ -12,11 +12,21 @@ body {
     grid-area: 1/1/1/6;
     text-align: center;
     border: 2px solid black;
-    background-color: rgb(100, 100, 100, .4);
+    background-color: rgb(100, 100, 100, .7);
+    color: white;
 }
 
 h1{
-    font-size: 70px;
+    font-size: 65px;
+}
+
+h2{
+    font-size: 30px;
+    color: white;
+}
+
+p{
+    color: white;
 }
 
 #subheader{
@@ -27,6 +37,7 @@ h1{
     grid-gap: 1em;
     border: 2px solid black;
     background-color: rgb(100, 100, 100, .7);
+    padding: 30px;
 }
 
 #subHeaderText{
@@ -59,22 +70,26 @@ h1{
     grid-area: 2/1/2/1;
     margin-left: 5%;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .warriorClass {
     grid-area: 2/2/2/2;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .mageClass {
     grid-area: 2/3/2/3;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .rougeClass {
     grid-area: 2/4/2/4;
     margin-right: 10px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #leftDiv {
@@ -83,12 +98,16 @@ h1{
     border: 2px solid black;
     text-align: center;
     background-color: rgb(100, 100, 100, .7);
+    color: white;
+    padding: 10px;
 }
 
 #vs{
     grid-area: 3/3/4/3;
     border: 2px solid black;
     background-color: rgb(100, 100, 100, .7);
+    text-align: center;
+    padding: 5px;
 }
 
 #rightDiv{
@@ -96,6 +115,8 @@ h1{
     border: 2px solid black;
     text-align: center;
     background-color: rgb(100, 100, 100, .7);
+    color: white;
+    padding: 10px
 }
 
 #textArea{
@@ -103,6 +124,8 @@ h1{
     border: 2px solid black;
     text-align: center;
     background-color: rgb(100, 100, 100, .7);
+    color: white;
+    padding: 1em;
 }
 
 #buttonDiv{
@@ -115,4 +138,6 @@ h1{
     border: 2px solid black;
     text-align: center;
     background-color: rgb(100, 100, 100, .7);
+    bottom: 0;
+    padding: 20px;
 }
